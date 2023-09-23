@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <SDL2/SDL.h>
+#include <math.h>
 #include "array.h"
 #include "display.h"
 #include "vector.h"
@@ -15,7 +16,6 @@
 // Array of triangles that should be rendered frame by frame
 ///////////////////////////////////////////////////////////////////////////////
 triangle_t* triangles_to_render = NULL;
-float M_PI = 3.1415926535897932384626433832795028841971;
 ///////////////////////////////////////////////////////////////////////////////
 // Global variables for execution status and game loop
 ///////////////////////////////////////////////////////////////////////////////
